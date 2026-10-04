@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mehrabpur City Portal | Mehrabpur, Naushahro Feroze, Sindh</title>
+    <meta name="description" content="Local directory for Mehrabpur, Naushahro Feroze, Sindh: doctors, schools, banks, markets, Ghalla Mandi, Mehrabpur Junction train timetable, government contacts and map. Every entry shows its source." />
+    <meta name="theme-color" content="#0b1b3a" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Mehrabpur City Portal" />
+    <meta property="og:description" content="Sourced local directory, train timetable, map and contacts for Mehrabpur, Sindh." />
+    <meta property="og:image" content="/images/hero.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('mhr_theme');
+          var dark = t ? t === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (dark) document.documentElement.classList.add('dark');
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Nastaliq+Urdu:wght@400;600&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
